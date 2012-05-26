@@ -1,0 +1,229 @@
+/* Global styles */
+
+#store #notice {			/* Error notice */
+        color: #000;
+        border: 2px solid red;
+        padding: 1em;
+        margin-bottom: 2em;
+        background-color: #26ade4;
+        font: bold smaller sans-serif;
+}
+
+
+#store h1 {					/* Headings */
+        font:  150% sans-serif;
+        color: /*#00b4cc*/ #343838;
+        border-bottom: 3px solid #343838;
+}
+
+/* Styles for products/index */
+
+#product_list table {
+        border-collapse: collapse;
+}
+
+#product_list table tr td {
+        padding: 5px;
+        vertical-align: top;
+}
+
+#product_list .list_image {
+  width:        60px;
+  height:       70px;
+}
+
+#product_list .list_description {
+  width:        60%;
+}
+
+#product_list .list_description dl {
+        margin: 0;
+}
+
+#product_list .list_description dt {
+	color:        #343838;
+	font-weight:  bold;
+	font-size:    larger;
+}
+
+#product_list .list_description dd {
+        margin: 0;
+}
+
+#product_list .list_actions {
+  font-size:    x-small;
+  text-align:   right;
+  padding-left: 1em;
+}
+
+#product_list .list_line_even {
+  background:   #00dffc;
+}
+
+#product_list .list_line_odd {
+  background:   #00b4cc;
+}
+
+/* START:mainlayout */
+/* Styles for main page */
+
+#banner {
+  background: /*#154ba1*/ #343838;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid;
+  font: small-caps 40px/40px "Times New Roman", serif;
+  color: /*#ffffff*/ #00b4cc;		 						/* Harsha's Online Shop */
+  text-align: center;
+}
+
+#banner img {
+  float: left;
+}
+
+#columns {
+  background: /*#154ba1*/ #343838; 						/* Home etc. Menu Kinda part */
+}
+
+#main {
+  margin-left: 17em;
+  padding-top: 4ex;
+  padding-left: 2em;
+  background: #40c0cb;					/* white page backgrnd changed to blue */
+}
+
+#side {
+  float: left;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  width: 16em;
+  background: #343838;						/* Home etc unna menu */
+}
+
+#side a {
+  color: #00b4cc;						/* Text of Home etc. */
+  font-size: small;
+}
+/* END:mainlayout */
+
+/* An entry in the store catalog */
+
+#store  .entry {
+  overflow: auto;
+  margin-top: 1em;
+  border-bottom: 1px solid /*#00b4cc*/ #343838;		/* dotted lines */
+}
+
+#store  .title {
+  font-size: 120%;
+  font-family: serif;
+}
+
+#store .entry img {
+  width: 80px;
+  margin-right: 35px;
+  margin-bottom:10px;
+  float: left;
+}
+
+
+#store .entry h3 {
+ margin-top: 0;
+ margin-bottom: 4px;
+ color: #343838;				/* Book Title */
+}
+
+#store .entry p {
+ margin-top: 0.8em; 
+ margin-bottom: 0.8em; 
+}
+
+#store .entry .price_line {
+ clear: both;
+ margin-bottom: 0.5em;
+}
+
+#store .entry .add_to_cart {
+  position: relative;
+}
+
+#store .entry  .price {
+  color: #343838;				/* price color */
+  font-weight: bold;
+  margin-right: 2em;
+}
+
+/* START:inline */
+#store .entry form, #store .entry form div {
+  display: inline;
+}
+/* END:inline */
+
+/* START:cartmain */
+/* Styles for the cart in the main page */
+
+#store .cart_title {
+  font: 120% bold;
+}
+
+#store .item_price, #store .total_line {
+  text-align: right;
+}
+
+#store .total_line .total_cell {
+  font-weight: bold;
+  border-top: 1px solid #595;
+}
+/* END:cartmain */
+
+/* START:cartside */
+/* Styles for the cart in the sidebar */
+
+#cart, #cart table {
+  font-size: medium;
+  color:     /*#f2e9e1*/ #ffffff;
+}
+
+#cart table {
+  border-top:    1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 10px;
+}
+/* END:cartside */
+
+/* START:form */
+/* Styles for order form */
+
+.depot_form fieldset {
+  background: /*#efe*/ #ffffff;
+}
+
+.depot_form legend {
+  color:  #ffffff;
+  background: /* #154ba1 */ #343838 ;
+  font-family: sans-serif;
+  padding: 0.2em 1em;
+}
+
+.depot_form label {
+  width: 5em;
+  float: left;
+  text-align: right;
+  padding-top: 0.2em;
+  margin-right: 0.1em;
+  display: block;
+}
+
+.depot_form select, .depot_form textarea, .depot_form input {
+  margin-left: 0.5em;
+}
+
+.depot_form .submit {
+  margin-left: 4em;
+}
+
+.depot_form div {
+  margin: 0.5em 0;
+}
+/* END:form */

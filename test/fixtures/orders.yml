@@ -1,0 +1,11 @@
+one:
+  name: Goutham Harsha
+  address: Hyderabad
+  email: gouthamkgh@gmail.com
+  pay_type: Check
+
+two:
+  name: MyString
+  address: MyText
+  email: MyString
+  pay_type: MyString
