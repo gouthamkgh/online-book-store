@@ -2,10 +2,17 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.12'
 
+
+group :development, :test  do
+    gem 'sqlite3','1.3.6'
+    gem 'mailcatcher'
+end
+
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3', '1.3.6'
+#gem 'sqlite3', '1.3.6'
 gem 'activemerchant', '~> 1.10.0'
 
 # Use unicorn as the web server
